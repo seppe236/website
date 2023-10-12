@@ -1,0 +1,138 @@
+@font-face {
+	font-family: 'baloo';
+	src: url(Baloo-Regular.ttf);
+}
+
+*{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style:none;
+	box-sizing: border-box;
+}
+body{
+	overflow-x: hidden;
+	font-family: montserrat;
+	background-repeat: no-repeat;
+	background: linear-gradient(90deg,#2B2B2B 0%, #3C4A57 100%);
+	background-size: auto;
+}
+
+
+
+
+nav{
+	position:relative;
+	margin-top: -7vh;
+	margin-left: 25vw;
+	margin-right: 25vw;
+	background: #ffffff;
+	height: 64px;
+	border-radius: 500px;
+}
+logo img{
+	margin-top: 3vh;
+	margin-left: 3vw;
+}
+
+
+back img{
+	
+	margin-top: -25vh;
+	margin-left: 40vw;
+	max-height: 200vh;
+
+}
+
+
+
+
+nav ul{
+	text-align: center;
+	margin-left: 0;
+}
+
+nav ul li{
+
+	text-align: center;
+	display: inline-block;
+	line-height: 64px;
+	margin: 0 5vh;
+	font-family: 'baloo', sans-serif;
+	
+}
+nav ul li a{
+	color: #949494;
+}
+a.active,a:hover{
+	color: #3D3D3D;
+	transition: .5s;
+}
+
+.one info{
+	position:relative;
+	font-family: 'baloo', sans-serif;
+	color: #ffffff;
+	display: block;
+	font-size: 3vh;
+	margin-left: 10vh;
+	top:-140vh;
+}
+
+.one info2{
+	position:relative;
+	font-family: 'baloo', sans-serif;
+	color: #ffffff;
+	display: block;
+	font-size: 6vh;
+	margin-left: 10vh;
+	top:-140vh;
+}
+
+.two info3{
+	position:relative;
+	font-family: 'baloo', sans-serif;
+	color: #ffffff;
+	display: block;
+	font-size: 2vh;
+	margin-left: 50vh;
+	top:-50vh;
+	width: 50vw;
+	text-align: center;
+}
+
+.two info4{
+	position:relative;
+	font-family: 'baloo', sans-serif;
+	color: #ffffff;
+	display: block;
+	font-size: 6vh;
+	margin-left: 50vh;
+	top:-80vh;
+	width: 50vw;
+	text-align: center;
+}
+
+
+
+
+/* width */
+::-webkit-scrollbar {
+	width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+	background: #3C4A57;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+	background: linear-gradient(0deg,#AD00FF 0%, #0092FF 100%);
+	border-radius: 500px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+	background: #555;
+  }
